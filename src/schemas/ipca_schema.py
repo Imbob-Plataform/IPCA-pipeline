@@ -2,5 +2,5 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 
 class IPCASchema(BaseModel):
-   data: datetime
+   periodo: datetime
    valor: float

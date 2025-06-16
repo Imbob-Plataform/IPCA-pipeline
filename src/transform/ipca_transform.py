@@ -9,7 +9,6 @@ class TransformIPCA:
       self.rename_columns()
       self.transform_column_date()
       self.transform_column_value()
-      print(self._data.head())
       return self._data
 
    def rename_columns(self):
